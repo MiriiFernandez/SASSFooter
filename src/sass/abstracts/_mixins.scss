@@ -1,3 +1,16 @@
 /* ********* */
 /* @MIXINS */
 /* ********* */
+
+@mixin tamaño($altura, $anchura, $direccion, $jc){
+    height: $altura;
+    width: $anchura;
+    flex-direction: $direccion;
+    justify-content: $jc;
+}
+
+@mixin medidas($altura,$anchura){
+    height: $altura;
+    width: $anchura;
+}
+

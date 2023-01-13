@@ -3,8 +3,12 @@
 /* ********* */
 
 $colores: (
-    $ColorLetra: #FFFFFF,
-    $ColorFondo: #200063,
-    $ColorRectangulos: #150043,
+    ColorLetra: #FFFFFF,
+    ColorFondo: #200063,
+    ColorRectangulos: #150043,
 );
 
+$rectangulos: (
+    anchura: 50%,
+    ColorFondo:#150043,
+);

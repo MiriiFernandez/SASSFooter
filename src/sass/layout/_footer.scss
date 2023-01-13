@@ -2,3 +2,57 @@
 /* @FOOTER */
 /* ********* */
 
+footer{
+    display: flex;
+    @include tamaño(250px, 100%,column, center); 
+    background-color: map-get($colores, ColorFondo);
+    text-align: center; 
+    color: map-get($colores, ColorLetra);
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-top: 20px;
+}
+
+li{
+    list-style: none; 
+    padding: 10px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+.article{
+    display: flex;
+   @include medidas(100%, 100%);
+}
+
+.iconos{
+    text-align: center;
+    margin-top: 20px;
+    width: 20%; 
+}
+
+.iconos img{
+    width: 25px;
+}
+
+.barraizq{
+    width: map-get($rectangulos,anchura);
+    background-color: map-get($rectangulos, ColorFondo);
+    border-top-right-radius:80px ;
+}
+
+.barrader{
+    width: map-get($rectangulos, anchura );
+    background-color: map-get($rectangulos, ColorFondo );
+    border-top-left-radius:80px ;
+}
